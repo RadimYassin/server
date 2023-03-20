@@ -2,7 +2,8 @@
 const http =require('http')
 const port =6000
 const server=http.createServer(function (req,res) {
-    
+     res.write("hello word");
+    res.end();
 })
 
 
